@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 9.0, 51.0, 1348.0, 619.0 ],
+		"rect" : [ 8.0, 54.0, 1031.0, 636.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -767,7 +767,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 295.123993, 517.388062, 157.0, 49.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 49.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 50.0, 35.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -1735,7 +1735,7 @@
 					"patching_rect" : [ 593.330933, 357.0, 173.0, 65.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 771.000122, 474.336548, 107.0, 65.0 ],
-					"text" : "F1",
+					"text" : "C3",
 					"textjustification" : 1
 				}
 
@@ -35705,8 +35705,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 25.5, 310.541016, 42.0, 20.0 ],
-					"text" : "*~ 0.4"
+					"patching_rect" : [ 25.5, 310.541016, 49.0, 20.0 ],
+					"text" : "*~ 0.35"
 				}
 
 			}
@@ -35766,7 +35766,7 @@
 					"patching_rect" : [ 593.330933, 270.888062, 126.0, 65.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 585.330933, 269.0, 126.0, 65.0 ],
-					"text" : "F1",
+					"text" : "C3",
 					"textjustification" : 1
 				}
 
@@ -38133,24 +38133,17 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-120::obj-22::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-120::obj-22::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-259" : [ "live.gain~[2]", "live.gain~[2]", 0 ],
 			"obj-136" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-62" : [ "kslider", "kslider", 0 ],
-			"obj-161" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-120::obj-22::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-90" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
-			"obj-120::obj-22::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-120::obj-22::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-259" : [ "live.gain~[2]", "live.gain~[2]", 0 ]
+			"obj-161" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-120::obj-22::obj-35" : [ "[5]", "Level", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "scaleColl.txt",
-				"bootpath" : "/Users/Nicholas/Documents/Classes/MAXMSP/Harmonic Series Machine",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "running-average.js",
 				"bootpath" : "/Users/Nicholas/Documents/Classes/MAXMSP/CNMAT-Everything-WIN",
 				"patcherrelativepath" : "../CNMAT-Everything-WIN",
