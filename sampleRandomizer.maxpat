@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 8,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1442.0, -292.0, 626.0, 640.0 ],
+		"rect" : [ 6.0, 48.0, 626.0, 640.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -164,10 +164,10 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1581.0, -245.0, 640.0, 480.0 ],
+						"rect" : [ 728.0, 64.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -186,19 +186,32 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 149.0, 140.0, 47.0, 20.0 ],
+									"text" : "sfolder"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-11",
-									"linecount" : 5,
+									"linecount" : 10,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 429.0, 179.0, 199.0, 73.0 ],
-									"text" : "open \"C:/Users/Nicholas/Documents/Classes/MAXMSP/Harmonic Series Machine/./Samples/Dulcimer/dulcimer3.wav\""
+									"patching_rect" : [ 429.0, 179.0, 71.0, 72.0 ],
+									"text" : "open \"Macintosh HD:/Users/n704s313/Desktop/EuphAndElecAcc/Samples/Dulcimer/dulcimer2.wav\""
 								}
 
 							}
@@ -259,7 +272,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 128.25, 100.0, 60.0, 20.0 ],
+									"patching_rect" : [ 128.25, 71.0, 60.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -369,7 +382,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 140.0, 90.0, 18.0 ],
+									"patching_rect" : [ 50.0, 111.0, 90.0, 18.0 ],
 									"text" : "autopopulate 1"
 								}
 
@@ -383,8 +396,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 149.0, 140.0, 151.0, 18.0 ],
-									"text" : "prefix ./Samples/Dulcimer/"
+									"patching_rect" : [ 149.0, 111.0, 147.0, 18.0 ],
+									"text" : "prefix /Samples/Dulcimer/"
 								}
 
 							}
@@ -401,7 +414,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 149.0, 190.0, 100.0, 20.0 ],
-									"prefix" : "C:/Users/Nicholas/Documents/Classes/MAXMSP/Harmonic Series Machine/./Samples/Dulcimer/"
+									"prefix" : "Macintosh HD:/Users/n704s313/Desktop/EuphAndElecAcc/Samples/Dulcimer/"
 								}
 
 							}
@@ -424,6 +437,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -566,7 +588,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
+									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-8", 0 ]
@@ -618,10 +640,10 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 8.0, 50.0, 640.0, 480.0 ],
+						"rect" : [ 261.0, 179.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -641,6 +663,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 149.0, 135.0, 47.0, 20.0 ],
+									"text" : "sfolder"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-2",
@@ -686,7 +722,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 110.25, 114.0, 60.0, 20.0 ],
+									"patching_rect" : [ 110.25, 49.0, 60.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -715,7 +751,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 55.0, 226.0, 150.0, 34.0 ],
+									"patching_rect" : [ 55.0, 226.0, 150.0, 33.0 ],
 									"text" : "maybe keep \nthis one"
 								}
 
@@ -892,7 +928,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 147.0, 90.0, 18.0 ],
+									"patching_rect" : [ 50.0, 82.0, 90.0, 18.0 ],
 									"text" : "autopopulate 1"
 								}
 
@@ -906,8 +942,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 149.0, 147.0, 188.0, 18.0 ],
-									"text" : "prefix ./Samples/DulcimerBounce"
+									"patching_rect" : [ 149.0, 82.0, 185.0, 18.0 ],
+									"text" : "prefix /Samples/DulcimerBounce"
 								}
 
 							}
@@ -924,7 +960,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 149.0, 198.0, 100.0, 20.0 ],
-									"prefix" : "C:/Users/Nicholas/Documents/Classes/MAXMSP/Harmonic Series Machine/./Samples/DulcimerBounce/"
+									"prefix" : "Macintosh HD:/Users/n704s313/Desktop/EuphAndElecAcc/Samples/DulcimerBounce/"
 								}
 
 							}
@@ -975,6 +1011,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-99", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -1135,7 +1180,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-99", 0 ],
+									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-98", 0 ]
@@ -1187,10 +1232,10 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1472.0, -769.0, 797.0, 640.0 ],
+						"rect" : [ 255.0, 53.0, 797.0, 640.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1209,7 +1254,22 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 642.0, 150.0, 47.0, 20.0 ],
+									"text" : "sfolder"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -1334,7 +1394,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 348.0, 315.0, 150.0, 48.0 ],
+									"patching_rect" : [ 348.0, 315.0, 150.0, 47.0 ],
 									"text" : "more than one bang is being sent for some god damn reason"
 								}
 
@@ -1416,7 +1476,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 389.0, 234.0, 100.0, 20.0 ],
-									"prefix" : "C:/Users/Nicholas/Documents/Classes/MAXMSP/Harmonic Series Machine/./Samples/Pan/"
+									"prefix" : "/Samples/Pan"
 								}
 
 							}
@@ -1563,7 +1623,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 91.0, 150.0, 365.0, 480.0 ],
@@ -2047,7 +2107,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 627.0, 137.0, 60.0, 20.0 ],
+									"patching_rect" : [ 627.0, 52.0, 60.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -2061,7 +2121,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 627.0, 200.0, 90.0, 18.0 ],
+									"patching_rect" : [ 627.0, 115.0, 90.0, 18.0 ],
 									"text" : "autopopulate 1"
 								}
 
@@ -2075,8 +2135,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 642.0, 175.0, 121.0, 18.0 ],
-									"text" : "prefix ./Samples/Pan"
+									"patching_rect" : [ 642.0, 90.0, 118.0, 18.0 ],
+									"text" : "prefix /Samples/Pan"
 								}
 
 							}
@@ -2093,7 +2153,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 642.0, 234.0, 100.0, 20.0 ],
-									"prefix" : "C:/Users/Nicholas/Documents/Classes/MAXMSP/Harmonic Series Machine/./Samples/Pan/"
+									"prefix" : "Macintosh HD:/Users/n704s313/Desktop/EuphAndElecAcc/Samples/Pan/"
 								}
 
 							}
@@ -2341,6 +2401,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-74", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2386,25 +2464,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-74", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-23", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-24", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-74", 0 ],
+									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-24", 0 ]
@@ -2714,10 +2774,10 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 42.0, 1366.0, 640.0 ],
+						"rect" : [ 0.0, 44.0, 1366.0, 640.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2737,6 +2797,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 617.5, 124.0, 47.0, 20.0 ],
+									"text" : "sfolder"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -2928,7 +3002,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 444.0, 229.0, 100.0, 20.0 ],
-									"prefix" : "C:/Users/Nicholas/Documents/Classes/MAXMSP/Harmonic Series Machine/./Samples/DulcimerStand/"
+									"prefix" : "Macintosh HD:/Users/n704s313/Desktop/EuphAndElecAcc/Samples/DulcimerStand/"
 								}
 
 							}
@@ -3075,7 +3149,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 91.0, 150.0, 365.0, 480.0 ],
@@ -3559,7 +3633,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 682.0, 132.0, 60.0, 20.0 ],
+									"patching_rect" : [ 687.75, 58.0, 60.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -3573,7 +3647,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 682.0, 195.0, 90.0, 18.0 ],
+									"patching_rect" : [ 687.75, 124.0, 90.0, 18.0 ],
 									"text" : "autopopulate 1"
 								}
 
@@ -3587,8 +3661,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 611.75, 170.0, 179.0, 18.0 ],
-									"text" : "prefix ./Samples/DulcimerStand"
+									"patching_rect" : [ 617.5, 99.0, 175.0, 18.0 ],
+									"text" : "prefix /Samples/DulcimerStand"
 								}
 
 							}
@@ -3605,7 +3679,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 701.25, 229.0, 100.0, 20.0 ],
-									"prefix" : "C:/Users/Nicholas/Documents/Classes/MAXMSP/Harmonic Series Machine/./Samples/DulcimerStand/"
+									"prefix" : "Macintosh HD:/Users/n704s313/Desktop/EuphAndElecAcc/Samples/DulcimerStand/"
 								}
 
 							}
@@ -3907,16 +3981,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-24", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-74", 0 ],
+									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-24", 0 ]
@@ -4038,6 +4103,24 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-74", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -4226,7 +4309,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 8.0, 50.0, 1366.0, 640.0 ],
@@ -4249,6 +4332,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 739.0, 214.0, 47.0, 20.0 ],
+									"text" : "sfolder"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -4440,7 +4537,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 486.0, 253.0, 100.0, 20.0 ],
-									"prefix" : "C:/Users/Nicholas/Documents/Classes/MAXMSP/Harmonic Series Machine/./Samples/Bottle/"
+									"prefix" : "Macintosh HD:/Users/n704s313/Desktop/EuphAndElecAcc/Samples/Bottle/"
 								}
 
 							}
@@ -4587,7 +4684,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 91.0, 150.0, 365.0, 480.0 ],
@@ -5071,7 +5168,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 724.0, 156.0, 60.0, 20.0 ],
+									"patching_rect" : [ 724.0, 109.0, 60.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -5085,7 +5182,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 724.0, 219.0, 90.0, 18.0 ],
+									"patching_rect" : [ 724.0, 172.0, 90.0, 18.0 ],
 									"text" : "autopopulate 1"
 								}
 
@@ -5099,8 +5196,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 739.0, 194.0, 131.0, 18.0 ],
-									"text" : "prefix ./Samples/Bottle"
+									"patching_rect" : [ 739.0, 147.0, 127.0, 18.0 ],
+									"text" : "prefix /Samples/Bottle"
 								}
 
 							}
@@ -5117,7 +5214,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 739.0, 253.0, 100.0, 20.0 ],
-									"prefix" : "C:/Users/Nicholas/Documents/Classes/MAXMSP/Harmonic Series Machine/./Samples/Bottle/"
+									"prefix" : "Macintosh HD:/Users/n704s313/Desktop/EuphAndElecAcc/Samples/Bottle/"
 								}
 
 							}
@@ -5368,16 +5465,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-74", 0 ],
+									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-4", 0 ]
@@ -5670,6 +5758,24 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-74", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -5970,21 +6076,6 @@
 					"source" : [ "obj-27", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "vs.between.maxpat",
-				"bootpath" : "/Users/Nicholas/Documents/Classes/MAXMSP/virtualsound macros/random generators",
-				"patcherrelativepath" : "../virtualsound macros/random generators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vs.random.maxpat",
-				"bootpath" : "/Users/Nicholas/Documents/Classes/MAXMSP/virtualsound macros/random generators",
-				"patcherrelativepath" : "../virtualsound macros/random generators",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ]
 	}
