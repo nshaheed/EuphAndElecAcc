@@ -2,9 +2,9 @@
 \language "english"
 
 \header {
-  title = \markup{ \vspace #3 \fontsize #3 "Scattered Circulations"}
+  title = \markup{\vspace #3 \fontsize #3 \override #'(font-name . "SpectrumMT SC") "Scattered Circulations"}
   %piece = \markup{ \vspace #2 "Scattered Circulations"
-  composer = \markup{ \vspace #2.1 "Nicholas Shaheed"}
+  composer = \markup{ \vspace #2.1 \override #'(font-name . "SpectrumMT SC") "Nicholas Shaheed"}
   date = "2014"
   copyright = "2014"
   tagline = ""
@@ -96,6 +96,7 @@ music = \relative c{
 
 \markuplist {
   \fontsize #1.5
+  \override #'(font-name . "SpectrumMT SC")
   \override-lines #'(baseline-skip . 3.8) {
     \paragraph {
       Scattered Circulations is an improvised piece for low brass and electronic
