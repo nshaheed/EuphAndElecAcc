@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 54.0, 968.0, 636.0 ],
+		"rect" : [ 0.0, 44.0, 1680.0, 882.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -9277,7 +9277,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 164.0, 205.0, 100.0, 20.0 ],
-									"prefix" : "./Samples/ButtonSpam"
+									"prefix" : "Macintosh HD:/Users/n704s313/Desktop/EuphAndElecAcc/Samples/ButtonSpam/"
 								}
 
 							}
@@ -13396,7 +13396,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-107",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patcher" : 					{
@@ -13408,7 +13408,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 8.0, 196.0, 640.0, 478.0 ],
+						"rect" : [ 845.0, 267.0, 640.0, 478.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -13427,7 +13427,20 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-10",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 415.0, 35.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -13950,7 +13963,7 @@
 									"fontsize" : 12.0,
 									"id" : "obj-92",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patcher" : 									{
@@ -13962,7 +13975,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 34.0, 76.0, 640.0, 480.0 ],
+										"rect" : [ 960.0, 285.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -13981,7 +13994,20 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-2",
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 97.0, 40.0, 25.0, 25.0 ]
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -14077,6 +14103,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-15", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-17", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -14135,6 +14170,16 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-92", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 424.5, 89.0, 296.0, 89.0, 296.0, 113.0, 264.5, 113.0 ],
+									"source" : [ "obj-10", 0 ]
 								}
 
 							}
@@ -38159,16 +38204,23 @@
  ],
 		"parameters" : 		{
 			"obj-120::obj-22::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-120::obj-22::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-136" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-120::obj-22::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-161" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-259" : [ "live.gain~[2]", "live.gain~[2]", 0 ],
-			"obj-62" : [ "kslider", "kslider", 0 ],
+			"obj-161" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-90" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
-			"obj-136" : [ "live.gain~", "live.gain~", 0 ]
+			"obj-62" : [ "kslider", "kslider", 0 ],
+			"obj-120::obj-22::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "scaleColl.txt",
+				"bootpath" : "/Users/n704s313/Desktop/EuphAndElecAcc",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "running-average.js",
 				"bootpath" : "/Users/n704s313/Desktop/EuphAndElecAcc",
 				"patcherrelativepath" : ".",
