@@ -160,7 +160,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 33.0, 75.0, 640.0, 480.0 ],
+						"rect" : [ 1073.0, 130.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -179,6 +179,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -595,8 +596,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 137.589966, 151.5, 89.0, 20.0 ],
-									"text" : "loadmess 0 10"
+									"patching_rect" : [ 137.589966, 162.0, 103.0, 20.0 ],
+									"text" : "loadmess -70. 10"
 								}
 
 							}
@@ -9048,7 +9049,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 820.533997, 720.388062, 125.0, 40.0 ],
-					"presentation_rect" : [ 105.0, 105.0, 50.0, 26.0 ],
+					"presentation_rect" : [ 105.0, 105.0, 50.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -10584,7 +10585,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 191.0, 82.0, 791.0, 624.0 ],
+						"rect" : [ 222.0, 97.0, 791.0, 624.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -10603,6 +10604,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -10789,7 +10791,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 160.0, 112.352905, 239.5, 18.0 ],
+									"patching_rect" : [ 160.0, 112.352905, 239.5, 33.0 ],
 									"text" : "send loadbang bang, send loadmess bang"
 								}
 
@@ -38250,24 +38252,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-120::obj-22::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-136" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-120::obj-22::obj-32" : [ "[8]", "[2]", 0 ],
 			"obj-259" : [ "live.gain~[2]", "live.gain~[2]", 0 ],
 			"obj-161" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-90" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
 			"obj-62" : [ "kslider", "kslider", 0 ],
-			"obj-120::obj-22::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ]
+			"obj-120::obj-22::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-120::obj-22::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-120::obj-22::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-90" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
+			"obj-136" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "scaleColl.txt",
-				"bootpath" : "/Users/n704s313/Desktop/EuphAndElecAcc",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "running-average.js",
 				"bootpath" : "/Users/n704s313/Desktop/EuphAndElecAcc",
 				"patcherrelativepath" : ".",
