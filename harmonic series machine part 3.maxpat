@@ -1766,7 +1766,7 @@
 					"patching_rect" : [ 593.330933, 357.0, 173.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 771.000122, 474.336548, 107.0, 56.0 ],
-					"text" : "C3",
+					"text" : "D#2",
 					"textjustification" : 1
 				}
 
@@ -9049,7 +9049,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 820.533997, 720.388062, 125.0, 40.0 ],
-					"presentation_rect" : [ 105.0, 105.0, 50.0, 26.0 ],
+					"presentation_rect" : [ 105.0, 105.0, 50.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -14624,8 +14624,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 916.533997, 152.388077, 84.0, 20.0 ],
-					"text" : "loadmess 115"
+					"patching_rect" : [ 916.533997, 152.388077, 85.0, 20.0 ],
+					"text" : "loadmess 109"
 				}
 
 			}
@@ -35851,7 +35851,7 @@
 					"patching_rect" : [ 593.330933, 270.888062, 126.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 585.330933, 269.0, 126.0, 56.0 ],
-					"text" : "C3",
+					"text" : "D#2",
 					"textjustification" : 1
 				}
 
@@ -38251,17 +38251,24 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-62" : [ "kslider", "kslider", 0 ],
-			"obj-161" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-90" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
-			"obj-259" : [ "live.gain~[2]", "live.gain~[2]", 0 ],
-			"obj-120::obj-22::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-136" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-120::obj-22::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-120::obj-22::obj-32" : [ "[8]", "[2]", 0 ]
+			"obj-90" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
+			"obj-120::obj-22::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-62" : [ "kslider", "kslider", 0 ],
+			"obj-120::obj-22::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-161" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-259" : [ "live.gain~[2]", "live.gain~[2]", 0 ],
+			"obj-136" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "scaleColl.txt",
+				"bootpath" : "/Users/n704s313/Desktop/EuphAndElecAcc",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "running-average.js",
 				"bootpath" : "/Users/n704s313/Desktop/EuphAndElecAcc",
 				"patcherrelativepath" : ".",
