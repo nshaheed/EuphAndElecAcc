@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 72.0, 44.0, 968.0, 882.0 ],
+		"rect" : [ 72.0, 70.0, 968.0, 856.0 ],
 		"bgcolor" : [ 1.0, 0.297628, 0.246975, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
@@ -798,7 +798,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 295.123993, 517.388062, 157.0, 48.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 50.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -1766,7 +1766,7 @@
 					"patching_rect" : [ 593.330933, 357.0, 173.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 771.000122, 474.336548, 107.0, 56.0 ],
-					"text" : "D#2",
+					"text" : "F2",
 					"textjustification" : 1
 				}
 
@@ -2517,12 +2517,12 @@
 					"fontsize" : 12.0,
 					"id" : "obj-132",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 795.533997, 281.5, 37.0, 18.0 ],
+					"patching_rect" : [ 795.533997, 281.5, 77.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 415.500122, 290.161926, 37.0, 18.0 ],
-					"text" : "dac~"
+					"presentation_rect" : [ 415.500122, 290.161926, 77.0, 18.0 ],
+					"text" : "dac~ 1 2 3 4"
 				}
 
 			}
@@ -9049,7 +9049,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 820.533997, 720.388062, 125.0, 40.0 ],
-					"presentation_rect" : [ 105.0, 105.0, 50.0, 40.0 ],
+					"presentation_rect" : [ 105.0, 105.0, 50.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -35851,7 +35851,7 @@
 					"patching_rect" : [ 593.330933, 270.888062, 126.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 585.330933, 269.0, 126.0, 56.0 ],
-					"text" : "D#2",
+					"text" : "F2",
 					"textjustification" : 1
 				}
 
@@ -36241,6 +36241,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-130", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-132", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-131", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-132", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-131", 0 ]
 				}
 
 			}
@@ -38251,14 +38269,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-120::obj-22::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-136" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-90" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
-			"obj-120::obj-22::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-62" : [ "kslider", "kslider", 0 ],
-			"obj-120::obj-22::obj-32" : [ "[8]", "[2]", 0 ],
 			"obj-161" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-62" : [ "kslider", "kslider", 0 ],
+			"obj-120::obj-22::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-259" : [ "live.gain~[2]", "live.gain~[2]", 0 ],
-			"obj-136" : [ "live.gain~", "live.gain~", 0 ]
+			"obj-120::obj-22::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-120::obj-22::obj-32" : [ "[8]", "[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
