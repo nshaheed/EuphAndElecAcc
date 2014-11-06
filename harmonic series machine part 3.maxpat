@@ -8,8 +8,8 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 72.0, 70.0, 968.0, 856.0 ],
-		"bgcolor" : [ 1.0, 0.297628, 0.246975, 1.0 ],
+		"rect" : [ 0.0, 70.0, 1680.0, 858.0 ],
+		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,95 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-96",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 370.123993, 120.486008, 12.0, 62.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 580.330933, 516.921875, 165.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-326",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 462.0, 676.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 580.000183, 495.921875, 80.0, 20.0 ],
+					"text" : "Audio Pedal"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-324",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 417.0, 681.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 408.500122, 495.921875, 29.0, 20.0 ],
+					"text" : "Mic"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-322",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 421.0, 485.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 408.500122, 474.921875, 77.0, 20.0 ],
+					"text" : "Input Levels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-317",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 607.0, 274.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 607.0, 274.0, 150.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 345.123993, 120.486008, 12.0, 62.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 405.500122, 516.921875, 163.5, 23.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1766,7 +1855,7 @@
 					"patching_rect" : [ 593.330933, 357.0, 173.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 771.000122, 474.336548, 107.0, 56.0 ],
-					"text" : "F2",
+					"text" : "D#3",
 					"textjustification" : 1
 				}
 
@@ -2506,7 +2595,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 171.845444, 843.803406, 150.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 460.000122, 291.0, 150.0, 18.0 ],
+					"presentation_rect" : [ 499.000122, 291.0, 150.0, 18.0 ],
 					"text" : "Change Audio Settings"
 				}
 
@@ -2665,8 +2754,6 @@
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 295.124023, 269.0, 280.0, 45.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 405.101715, 479.336548, 364.0, 57.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "kslider",
@@ -2691,7 +2778,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 411.533997, 1025.0, 128.0, 128.0 ],
+					"patching_rect" : [ 411.533966, 1028.007324, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 396.000122, 467.460938, 492.0, 82.921875 ],
 					"shadow" : 3
@@ -21210,28 +21297,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-96",
-					"maxclass" : "meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 370.123993, 120.486008, 12.0, 62.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-97",
-					"maxclass" : "meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 345.123993, 120.486008, 12.0, 62.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-101",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -35851,7 +35916,7 @@
 					"patching_rect" : [ 593.330933, 270.888062, 126.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 585.330933, 269.0, 126.0, 56.0 ],
-					"text" : "F2",
+					"text" : "D#3",
 					"textjustification" : 1
 				}
 
@@ -38269,14 +38334,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-136" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-90" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
-			"obj-161" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-62" : [ "kslider", "kslider", 0 ],
-			"obj-120::obj-22::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-259" : [ "live.gain~[2]", "live.gain~[2]", 0 ],
+			"obj-120::obj-22::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-120::obj-22::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-120::obj-22::obj-32" : [ "[8]", "[2]", 0 ]
+			"obj-161" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-120::obj-22::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-62" : [ "kslider", "kslider", 0 ],
+			"obj-90" : [ "live.gain~[3]", "live.gain~[3]", 0 ],
+			"obj-136" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
